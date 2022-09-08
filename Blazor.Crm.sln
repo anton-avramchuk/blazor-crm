@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F582CA5A-AB57-4617-A44F-9A9908D21648}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F32EDD70-CAF4-4CE5-89FD-00780A22CC68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{524D58C0-2E97-4E56-BE90-D01C58EB1DAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.Crm.Admin", "src\Blazor.Crm.Admin\Blazor.Crm.Admin.csproj", "{BA32F026-6B6A-4EA8-8A88-4FEDDF6B0D81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatabaseManagement", "DatabaseManagement", "{AE505019-33FB-4C39-8CEF-D003A01A72DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.Crm.Module.DatabaseManagement.Api", "src\Modules\DatabaseManagement\Blazor.Crm.Module.DatabaseManagement.Api\Blazor.Crm.Module.DatabaseManagement.Api.csproj", "{83C99267-D36C-433E-B90D-C4F5426FA75A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.Crm.Module.DatabaseManagement.Components", "src\Modules\DatabaseManagement\Blazor.Crm.Module.DatabaseManagement.Components\Blazor.Crm.Module.DatabaseManagement.Components.csproj", "{C6A40C8E-FF88-441B-974D-50D12EFDBA7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.Crm.Module.DatabaseManagement.Components.Shared", "src\Modules\DatabaseManagement\Blazor.Crm.Module.DatabaseManagement.Components.Shared\Blazor.Crm.Module.DatabaseManagement.Components.Shared.csproj", "{69B2101D-2E3E-465A-B9D5-18A1590277FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{524D58C0-2E97-4E56-BE90-D01C58EB1DAA} = {F582CA5A-AB57-4617-A44F-9A9908D21648}
+		{BA32F026-6B6A-4EA8-8A88-4FEDDF6B0D81} = {F582CA5A-AB57-4617-A44F-9A9908D21648}
+		{AE505019-33FB-4C39-8CEF-D003A01A72DA} = {524D58C0-2E97-4E56-BE90-D01C58EB1DAA}
+		{83C99267-D36C-433E-B90D-C4F5426FA75A} = {AE505019-33FB-4C39-8CEF-D003A01A72DA}
+		{C6A40C8E-FF88-441B-974D-50D12EFDBA7F} = {AE505019-33FB-4C39-8CEF-D003A01A72DA}
+		{69B2101D-2E3E-465A-B9D5-18A1590277FD} = {AE505019-33FB-4C39-8CEF-D003A01A72DA}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA32F026-6B6A-4EA8-8A88-4FEDDF6B0D81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA32F026-6B6A-4EA8-8A88-4FEDDF6B0D81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA32F026-6B6A-4EA8-8A88-4FEDDF6B0D81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA32F026-6B6A-4EA8-8A88-4FEDDF6B0D81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83C99267-D36C-433E-B90D-C4F5426FA75A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83C99267-D36C-433E-B90D-C4F5426FA75A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83C99267-D36C-433E-B90D-C4F5426FA75A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83C99267-D36C-433E-B90D-C4F5426FA75A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6A40C8E-FF88-441B-974D-50D12EFDBA7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A40C8E-FF88-441B-974D-50D12EFDBA7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A40C8E-FF88-441B-974D-50D12EFDBA7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A40C8E-FF88-441B-974D-50D12EFDBA7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69B2101D-2E3E-465A-B9D5-18A1590277FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69B2101D-2E3E-465A-B9D5-18A1590277FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69B2101D-2E3E-465A-B9D5-18A1590277FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69B2101D-2E3E-465A-B9D5-18A1590277FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
